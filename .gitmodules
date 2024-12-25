@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/wppusher"]
+	path = wp-content/plugins/wppusher
+	url = https://github.com/greggit49/la-vie-des-plantes.git

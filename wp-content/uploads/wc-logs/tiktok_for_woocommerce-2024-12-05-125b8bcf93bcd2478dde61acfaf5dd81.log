@@ -1,0 +1,29 @@
+2024-12-05T18:33:24+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6751f1f4c5644httpla-vitrinelocalwp-admin","smb_name":"PROD","redirect_url":"http:\/\/la-vitrine.local\/wp-admin\/"}
+ ajax: no
+2024-12-05T18:33:26+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 2024120518332656F19AF70AAB264A9979,2024120518332656F19AF70AAB264A9979
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01e726759a122df88b8b21a74f3a777099e6b404a4931f2361143ceff50989f6ae0b23921e7e2c2587cfe799484a49f0bb4063526ac619c4e939e8554bccece66c05a7def6501719a9ffb2bfa99b231df429d453625c77a0e0b3aaee448870e20c2cfa547b485aed031b30a6d0d07b5b2b
+x-tt-trace-id: 00-24120518332656F19AF70AAB264A9979-790DE2EE51F6F7E7-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 205
+X-Origin-Response-Time: 67,184.28.235.46
+X-Akamai-Request-ID: 48a6474c.892c3cb
+Date: Thu, 05 Dec 2024 18:33:27 GMT
+X-Cache: TCP_MISS from a23-72-226-207.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a184-28-235-46.deploy.akamaitechnologies.com (AkamaiGHost/11.7.1-5d2a058efeda81c5505a169a6e16c38e) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=189, origin; dur=67
+Server-Timing: inner; dur=63
+X-Parent-Response-Time: 248,23.72.226.207
+
+{"code":0,"msg":"ok","data":{"external_data_key":"d837e5b5-da83-4892-8da6-be75b5dff54b","app_id":"7444997702372327442","redirect_uri":"http:\/\/la-vitrine.local\/wp-admin\/","app_secret":"dec17668840061cbc2b84c18e7c8e6cd39b6c83b"}}
+

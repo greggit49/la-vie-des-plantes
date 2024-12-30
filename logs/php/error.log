@@ -1,0 +1,44 @@
+[02-Dec-2024 19:27:56 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[02-Dec-2024 19:32:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "_WP_Editors" not found in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-admin\customize.php(306): do_action('customize_contr...')
+#3 {main}
+  thrown in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Dec-2024 19:32:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "_WP_Editors" not found in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-admin\customize.php(306): do_action('customize_contr...')
+#3 {main}
+  thrown in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php on line 324
+[02-Dec-2024 19:32:37 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "_WP_Editors" not found in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\PC\Local Sites\la-vitrine\app\public\wp-admin\customize.php(306): do_action('customize_contr...')
+#3 {main}
+  thrown in C:\Users\PC\Local Sites\la-vitrine\app\public\wp-includes\class-wp-hook.php on line 324
+[04-Dec-2024 19:14:10 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[12-Dec-2024 18:56:30 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Dec-2024 21:15:06 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_update_themes. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_update_themes. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_privacy_delete_old_export_files. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet jetpack_clean_nonces. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet jetpack_clean_nonces. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wc_admin_process_orders_milestone. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wc_admin_process_orders_milestone. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wc_admin_unsnooze_admin_notes. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wc_admin_unsnooze_admin_notes. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"hourly","args":[],"interval":3600}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet woocommerce_cancel_unpaid_orders. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":false,"args":[]}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet woocommerce_scheduled_sales. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"daily","args":[],"interval":86400}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet woocommerce_scheduled_sales. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"daily","args":[],"interval":86400}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet woocommerce_cleanup_sessions. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet woocommerce_cleanup_sessions. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_update_user_counts. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_update_user_counts. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de replanification de tâche pour le crochet wp_version_check. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
+[19-Dec-2024 21:15:18 UTC] Erreur d’événement de déplanification de tâche pour le crochet wp_version_check. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"twicedaily","args":[],"interval":43200}
